@@ -15,3 +15,5 @@ app/*/*/*/_pycache_/
 .env/
 .venv/
 venv/
+**/__pycache__/
+app/**/__pycache__/
