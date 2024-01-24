@@ -1,0 +1,17 @@
+myenv/
+#GIT
+
+.git 
+.gitignore
+
+#DOCKER
+.docker 
+
+#PYTHON
+app/_pycache_/
+app/*/_pycache_/
+app/*/*/_pycache_/
+app/*/*/*/_pycache_/
+.env/
+.venv/
+venv/

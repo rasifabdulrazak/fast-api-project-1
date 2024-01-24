@@ -11,4 +11,4 @@ COPY ./app /app
 WORKDIR /app
 
 RUN apt-get update \
-    && 
+    && /py/bin/pip install -r /tmp/requirements.txt \
