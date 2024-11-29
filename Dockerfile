@@ -10,5 +10,6 @@ COPY ./app /app
 
 WORKDIR /app
 
-RUN apt-get update \
-    && /py/bin/pip install -r /tmp/requirements.txt \
+RUN pip install -r requirements.txt
+
+CMD ["uvicorn", "app.main:app", "--host=0.0.0.0", "--port=80"]
